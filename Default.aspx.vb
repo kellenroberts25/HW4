@@ -32,4 +32,15 @@ Partial Class _Default
      
 
     End Sub
+
+    Protected Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
+
+        'Delete values out of the textboxes
+        HourlyWageTextbox.Text = String.Empty
+        HoursWorkedTextbox.Text = String.Empty
+        AfterTaxDeductionsTextbox.Text = String.Empty
+        PreTaxDeductionsTextbox.Text = String.Empty
+        NetIncomeLabel.Text = String.Empty
+
+    End Sub
 End Class
