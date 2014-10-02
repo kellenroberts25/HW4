@@ -27,7 +27,7 @@ Partial Class _Default
         Dim NetIncome As Decimal = pretaxedamount - (pretaxedamount * TaxRate) - A
 
         'Display  the results in the NetIncomeTextbox
-        NetIncomeLabel.Text = "$"NetIncome.ToString
+        NetIncomeLabel.Text = "$" & NetIncome.ToString
 
      
 

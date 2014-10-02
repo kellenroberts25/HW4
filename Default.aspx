@@ -10,7 +10,9 @@
 </head>
 <body style="height: 509px">
     <form id="form1" runat="server">
-    <div style="height: 504px; width: 228px;">
+    <div style="height: 418px; width: 228px;" class="border">
+    
+        <br />
     
         Hourly Wage:<br />
         <asp:TextBox ID="HourlyWageTextbox" runat="server"></asp:TextBox>
@@ -24,20 +26,19 @@
         <asp:TextBox ID="PreTaxDeductionsTextbox" runat="server"></asp:TextBox>
         <br />
         <br />
-        After-tax Deductions:<br />
+        After-tax Deductions:</><br />
         <asp:TextBox ID="AfterTaxDeductionsTextbox" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="ClearButton" runat="server" Text="Clear" />
+        <asp:Button ID="ClearButton" runat="server" Text="Clear" class="button"/>
         <br />
         <br />
-        <asp:Button ID="CalculateButton" runat="server" Text="Calculate Net Pay" />
+        <asp:Button ID="CalculateButton" runat="server" Text="Calculate Net Pay" class="button"/>
         <br />
         <br />
         <br />
         Net Income:&nbsp;
-        <asp:Label ID="NetIncomeLabel" runat="server" Text="Label"></asp:Label>
-        <br />
+        <asp:Label ID="NetIncomeLabel" runat="server" CssClass="netincome"></asp:Label>
         <br />
         <br />
     
