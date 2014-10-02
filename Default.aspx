@@ -4,11 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title></title>
+
 </head>
 <body style="height: 509px">
     <form id="form1" runat="server">
-    <div style="height: 504px">
+    <div style="height: 504px; width: 228px;">
     
         Hourly Wage:<br />
         <asp:TextBox ID="HourlyWageTextbox" runat="server"></asp:TextBox>
